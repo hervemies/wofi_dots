@@ -1,0 +1,51 @@
+@define-color background #2C2A24;
+@define-color input_bg #3d3a31;
+@define-color input_text #e3decf;
+@define-color border #E3A724;
+@define-color selected_bg #E3A724;
+@define-color text #e3decf;
+
+
+* {
+  font-family: Inter Medium;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+#window {
+  background-color: @background;
+  spacing
+}
+
+#inner-box {
+  margin-top: 12px;
+}
+
+
+#input {
+  background-color: @input_bg;
+  color: @input_text;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  border: solid;
+  border-color: @border;
+  border-width: 2px;
+}
+
+#entry:selected { 
+  
+  background-color:@selected_bg;
+}
+
+#text {
+  color: @text;
+}
+
+#entry {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: @transparent;
+  border-radius: 4px;
+  font-size: 18px;
+}
