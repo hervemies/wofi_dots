@@ -12,3 +12,5 @@ MANUAL INSTALLATION
 copy style.css and config to '''$HOME/.config/wofi'''
 
 INSTALL VIA SCRIPT
+
+'''chmod +x instsall.sh & ./install.sh'''
