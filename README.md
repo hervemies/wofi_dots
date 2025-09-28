@@ -1,4 +1,4 @@
- # SIMPLE WOFI DOTS
+ # SIMPLE WOFI SEARCHBAR
 
  Simple and elegant wofi searchbar dots
 
